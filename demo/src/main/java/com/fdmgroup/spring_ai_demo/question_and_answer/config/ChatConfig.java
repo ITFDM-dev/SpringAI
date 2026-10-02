@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class ChatConfig {
 
     @Bean
-    public ChatClient chatClient(
+    public ChatClient qnaChatClient(
             ChatClient.Builder builder,
             VectorStore vectorStore) {
 
