@@ -41,7 +41,7 @@ public class KnowledgeLoader {
             List<Document> chunks =
                     splitter.apply(documents);
 
-            vectorStore.add(chunks);
+            //vectorStore.add(chunks);
 
             System.out.println(
                     "Knowledge Base Loaded");
